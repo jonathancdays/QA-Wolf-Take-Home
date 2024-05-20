@@ -1,21 +1,5 @@
 [
   {
-    "title": "Dieter Rams turns 92 – Stream \"Rams\" for free May 20 and 21",
-    "url": "https://www.ohyouprettythings.com/rams"
-  },
-  {
-    "title": "ohyouprettythings.com",
-    "url": "from?site=ohyouprettythings.com"
-  },
-  {
-    "title": "GPU Quest: Multi-source graphics cards price comparator",
-    "url": "https://gpu.quest/us"
-  },
-  {
-    "title": "gpu.quest",
-    "url": "from?site=gpu.quest"
-  },
-  {
     "title": "Grothendieck’s use of equality",
     "url": "https://arxiv.org/abs/2405.10387"
   },
@@ -24,19 +8,35 @@
     "url": "from?site=arxiv.org"
   },
   {
-    "title": "Microsoft announces Copilot Plus PCs with built-in AI hardware",
-    "url": "https://www.theverge.com/2024/5/20/24160486/microsoft-copilot-plus-ai-arm-chips-pc-surface-event"
-  },
-  {
-    "title": "theverge.com",
-    "url": "from?site=theverge.com"
-  },
-  {
     "title": "Llama3 implemented from scratch",
     "url": "https://github.com/naklecha/llama3-from-scratch"
   },
   {
     "title": "github.com/naklecha",
     "url": "from?site=github.com/naklecha"
+  },
+  {
+    "title": "Police in Austin, San Francisco skirt facial recognition ban",
+    "url": "https://www.washingtonpost.com/business/2024/05/18/facial-recognition-law-enforcement-austin-san-francisco/"
+  },
+  {
+    "title": "washingtonpost.com",
+    "url": "from?site=washingtonpost.com"
+  },
+  {
+    "title": "Coding My Handwriting",
+    "url": "https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript"
+  },
+  {
+    "title": "amygoodchild.com",
+    "url": "from?site=amygoodchild.com"
+  },
+  {
+    "title": "Modernizing the AntennaPod Code Structure",
+    "url": "https://antennapod.org/blog/2024/05/modernizing-the-code-structure"
+  },
+  {
+    "title": "antennapod.org",
+    "url": "from?site=antennapod.org"
   }
 ]

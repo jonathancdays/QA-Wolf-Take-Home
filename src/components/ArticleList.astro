@@ -1,13 +1,15 @@
 ---
 import articles from "../../article-list/articles.json";
 
-interface articleData {
+interface ArticleData {
   title: string;
   url: string;
 }
 ---
 
 <main>
+  <h1>Today's Top 10 Hacker News Article</h1>
+  <h2>Generate a new list daily by running the playwright file.</h2>
   <section id="article-list">
     <table>
       <thead>
@@ -18,7 +20,7 @@ interface articleData {
       </thead>
       <tbody>
         {
-          articles.map((article: articleData) => (
+          articles.map((article: ArticleData) => (
             <tr>
               <td>{article.title}</td>
               <td>
@@ -29,18 +31,5 @@ interface articleData {
         }
       </tbody>
     </table>
-  </section>
-  <section>
-    <button
-      hx-post="../api/get-article-data.ts"
-      hx-trigger="click"
-      hx-target="#article-list"
-      hx-swap="innerHTML"
-    >
-      Fetch Latest Articles
-    </button>
-    <button hx-get="../api/get-article-csv.ts" hx-trigger="click">
-      Download CSV
-    </button>
   </section>
 </main>

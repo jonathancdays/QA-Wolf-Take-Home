@@ -181,18 +181,6 @@ qa-wolf-take-home/
 - **Learning Curve**: New framework may require a learning period.
 - **Limited Ecosystem**: Smaller ecosystem compared to more established frameworks like React or Vue.
 
-### MDX
-
-**Positives**:
-
-- **Markdown with React Components**: Allows embedding React components within Markdown, providing great flexibility for content creation.
-- **Easy Content Management**: Simplifies writing and managing content-rich pages.
-
-**Trade-offs**:
-
-- **Build Time**: May increase build time due to the additional processing required for MDX files.
-- **Complexity**: Adds complexity to the build process and may require additional tooling setup.
-
 ### TailwindCSS
 
 **Positives**:
@@ -204,18 +192,6 @@ qa-wolf-take-home/
 
 - **Learning Curve**: Requires understanding of utility-first CSS methodology.
 - **Verbose HTML**: Can lead to bloated HTML files with numerous classes.
-
-### HTMX
-
-**Positives**:
-
-- **Server-Driven UI**: Enables dynamic interactions without writing JavaScript, leveraging HTML attributes.
-- **Simplified Development**: Reduces the need for complex frontend frameworks by handling HTTP requests directly in the HTML.
-
-**Trade-offs**:
-
-- **Limited Flexibility**: May not be suitable for highly interactive applications requiring extensive client-side logic.
-- **Dependency on HTML**: Tightly couples logic with HTML, which can become cumbersome for large projects.
 
 ### Playwright
 
@@ -230,50 +206,13 @@ qa-wolf-take-home/
 - **Resource Intensive**: Can be resource-intensive, especially when running tests in parallel.
 - **Complexity**: Advanced features may introduce complexity in test management and execution.
 
-### AstroDB
-
-**Positives**:
-
-- **Integrated with Astro**: Seamlessly integrates with the Astro framework for data management.
-- **Scalability**: Designed to handle a scalable amount of data for static site generation.
-
-**Trade-offs**:
-
-- **Limited Documentation**: May have less documentation and community support compared to more established databases.
-- **Specific Use Case**: Primarily designed for static site use cases, which may not be suitable for all applications.
-
-### ElysiaJS
-
-**Positives**:
-
-- **Lightweight**: Minimal overhead for creating HTTP servers.
-- **Modern JavaScript**: Utilizes modern JavaScript features and syntax.
-
-**Trade-offs**:
-
-- **Less Mature**: Newer and less mature compared to other server frameworks like Express or Koa.
-- **Community Support**: Smaller community and ecosystem.
-
-### Hyperscript
-
-**Positives**:
-
-- **Declarative Interactions**: Simplifies client-side interactions with a declarative syntax.
-- **Small Footprint**: Lightweight library that adds minimal overhead to the project.
-
-**Trade-offs**:
-
-- **Limited Functionality**: May not support all the complex interactions needed for advanced applications.
-- **Learning Curve**: New syntax and concepts may require time to learn.
-
 ## Testing
 
 ### Playwright Testing
 
 I use Playwright for end-to-end testing of:
 
-- **Astro and MDX components**: Ensuring the components render correctly.
-- **HTMX and Hyperscript elements**: Verifying the dynamic interactions.
+- **Astro components**: Ensuring the components render correctly.
 
 To run the tests, use:
 

@@ -145,41 +145,6 @@ declare module 'astro:content' {
 } & { render(): Render[".mdx"] };
 };
 "blog": {
-"first-post.mdx": {
-	id: "first-post.mdx";
-  slug: "first-post";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"markdown-style-guide.mdx": {
-	id: "markdown-style-guide.mdx";
-  slug: "markdown-style-guide";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"second-post.mdx": {
-	id: "second-post.mdx";
-  slug: "second-post";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"third-post.mdx": {
-	id: "third-post.mdx";
-  slug: "third-post";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
-"using-mdx.mdx": {
-	id: "using-mdx.mdx";
-  slug: "using-mdx";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".mdx"] };
 };
 
 	};
