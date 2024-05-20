@@ -1,9 +1,10 @@
 ---
-import fs from "fs";
-import path from "path";
+import articles from "../../article-list/articles.json";
 
-const filePath = path.resolve("article-list/articles.json");
-const articles = JSON.parse(fs.readFileSync(filePath, "utf8"));
+interface articleData {
+  title: string;
+  url: string;
+}
 ---
 
 <main>
@@ -17,7 +18,7 @@ const articles = JSON.parse(fs.readFileSync(filePath, "utf8"));
       </thead>
       <tbody>
         {
-          articles.map((article: any) => (
+          articles.map((article: articleData) => (
             <tr>
               <td>{article.title}</td>
               <td>
@@ -31,14 +32,14 @@ const articles = JSON.parse(fs.readFileSync(filePath, "utf8"));
   </section>
   <section>
     <button
-      hx-post="/api/get-article-data.ts"
+      hx-post="../api/get-article-data.ts"
       hx-trigger="click"
       hx-target="#article-list"
       hx-swap="innerHTML"
     >
       Fetch Latest Articles
     </button>
-    <button hx-get="/api/get-article-csv.ts" hx-trigger="click">
+    <button hx-get="../api/get-article-csv.ts" hx-trigger="click">
       Download CSV
     </button>
   </section>

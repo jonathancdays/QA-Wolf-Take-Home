@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 export const get: APIRoute = async () => {
-const filePath = path.resolve("../../article-list/article.csv");
+const filePath = path.resolve("article-list/article.csv");
 
 if (!fs.existsSync(filePath)) {
 return new Response("CSV file not found", { status: 404 });

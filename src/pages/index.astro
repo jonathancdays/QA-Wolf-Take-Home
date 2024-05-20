@@ -4,40 +4,35 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import ArticleList from "../components/ArticleList.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
-import { getCollection } from "astro:content";
-
-const articles = (await getCollection("article")).sort(
-	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
-);
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			table {
-				height: auto;
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        width: 960px;
+      }
+      table {
+        height: auto;
 
-				max-width: 500px;
-				overflow: scroll;
-			}
-			@media (max-width: 720px) {
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<section>
-			<img
-				src="/public/qa_wolf_cover.jpeg"
-				alt="Two one-eyed alien wolves fixing a futuristic computer."
-			/>
-		</section>
-		<ArticleList />
-		<Footer />
-	</body>
+        max-width: 500px;
+        overflow: scroll;
+      }
+      @media (max-width: 720px) {
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <section>
+      <img
+        src="/qa_wolf_cover.jpeg"
+        alt="Two one-eyed alien wolves fixing a futuristic computer."
+      />
+    </section>
+    <ArticleList />
+    <Footer />
+  </body>
 </html>
