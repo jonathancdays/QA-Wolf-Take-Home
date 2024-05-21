@@ -1,0 +1,16 @@
+Why I Want To Work At QA Wolf.
+
+What caught my attention about QA Wolf is the colorful and impactful branding. The logo and strong contrasting colors stood out to me.
+
+Because I found it interesting I dove into the social media accounts and saw a wonderfully consistent series of posts.
+
+Seeing the written content of the articles on the web about culture, processes, and customer success made me excited to reply!
+
+
+In the YouTube video, I speak about what first caught my eye about QA Wolf such as its branding, leadership, and community-facing endeavors.
+
+Checkout the github repo to see insights into my process:
+https ://github.com/jonathancdays/QA-Wolf-Take-Home
+
+Here is the live site:
+https ://qawolftakehome.netlify.app/
