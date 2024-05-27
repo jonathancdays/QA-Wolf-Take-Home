@@ -16,10 +16,10 @@ YouTube Video:
 https://www.youtube.com/watch?v=Gjep4qGcitk
 
 Checkout the github repo to see insights into my process:
-https ://github.com/jonathancdays/QA-Wolf-Take-Home
+https://github.com/jonathancdays/QA-Wolf-Take-Home
 
 Here is the live site:
-https ://qawolftakehome.netlify.app/
+https://qawolftakehome.netlify.app/
 
 ### About Me
 
