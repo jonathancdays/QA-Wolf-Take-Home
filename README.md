@@ -50,7 +50,7 @@ To set up the project, follow these steps:
 2. **Install dependencies**:
 
    ```bash
-   bun install
+   bun install # or npm install
    ```
 
 ## Usage
@@ -58,19 +58,19 @@ To set up the project, follow these steps:
 To start the development server, run:
 
 ```bash
-bun run dev
+bun run dev # or npm run dev
 ```
 
 To build the project for production, run:
 
 ```bash
-bun run build
+bun run build # or npm run build
 ```
 
 To preview the production build, run:
 
 ```bash
-bun run preview
+bun run preview # or npm run preview
 ```
 
 ## Scripts
@@ -218,7 +218,7 @@ I use Playwright for end-to-end testing of:
 To run the tests, use:
 
 ```bash
-bun playwright test
+bun playwright test # npm playwright test
 ```
 
 ## Contact
